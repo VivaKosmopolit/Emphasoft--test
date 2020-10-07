@@ -1,0 +1,308 @@
+@media screen and (max-width: 1550px) {
+    footer>:first-child {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    header a, .note { font-size: 13px; }
+
+    .btn { font-size: 12px; }
+
+    .wrapper p {
+        width: 56%;
+        font-size: 14px;
+    }
+
+    .tip { margin-right: 180px; }
+
+    .install-list a {
+        font-size: 21px;
+    }
+
+    .wrapper { width: 90%; }
+
+    .btn__transparent { padding: 15px 70px; }
+
+    .container { width: 80%; }
+
+    .steps-list svg {
+        width: 70px;
+        height: 70px;
+        margin-right: 25px;
+    }
+
+    .step-marked { font-size: 22px; }
+}
+
+@media screen and (max-width: 1230px) {
+    .btn { font-size: 11px; }
+
+    header a, .note { font-size: 13px; }
+
+    .phone-numbers li:first-child a { font-size: 20px; }
+
+    .phone-numbers li:nth-child(2) a, .phone-numbers li:last-child a { font-size: 18px; }
+
+    .rights-section *, .time-working, .address {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    footer>:first-child { width: 60%; }
+
+    .phone-numbers li { margin-bottom: 15px; }
+
+    .s-link a { font-size: 16px; }
+
+    .s-link svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .wrapper h2:not(.main-h2) { font-size: 28px; }
+
+    .e-link { font-size: 15px; }
+
+    .tip a { font-size: 16px; }
+
+    .tip-i { margin: 30px 0; }
+
+    .tip-i:before { font-size: 130px; }
+
+    .install-tips>:last-of-type .tip-i:before, .install-tips>:first-of-type .tip-i:before {
+        top: -120%;
+    }
+
+    .simple-install .wrapper p { margin: 35px 0 30px 0; }
+
+    .tip { margin-right: 100px; }
+}
+
+@media all and (max-width: 920px) {
+    .container {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .simple-install {
+        width: 100%;
+    }
+
+    .install-tips>:last-of-type .tip-i:before {
+        left: -31%;
+        top: -117%;
+    }
+
+    .install-tips>:first-of-type .tip-i:before {
+        left: -50%;
+    }
+
+    .tip a { font-size: 14px; }
+
+    .install-app h2 { width: 100%; }
+
+    .main-install .wrapper p { width: 90%; }
+
+    header nav:not(.mobile-menu), .auth-section { display: none; }
+
+    .mobile-menu, .burger-wrapper { display: block; }
+
+    header {
+        padding: 0;
+        box-shadow: unset;
+    }
+
+    .steps-list svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .step-marked { font-size: 20px; }
+
+    .rights-section *, .time-working, .address { font-size: 13px; }
+
+    .mobile-logo img { max-width: 100%; min-height: 100%; }
+
+    .mobile-logo { width: 200px; }
+
+    .chat-btn {
+        right: 25px;
+        bottom: 25px;
+    }
+}
+
+@media all and (max-width: 860px) {
+    .mobile-logo { width: 20%; }
+
+    .simple-install .wrapper p {
+        width: 100%;
+        margin: 30px 0 35px 0;
+    }
+
+    .social-links .wrapper p {
+        width: 100%;
+    }
+
+    footer {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    footer>:first-child {
+        width: 100%;
+        padding-top: 40px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    footer>:last-child {
+        padding-bottom: 40px;
+    }
+
+    .footer-logo { margin-bottom: 20px; }
+
+    .steps-list svg { margin-right: 15px; }
+
+    .step-marked { font-size: 18px; }
+
+    .step-subtext {
+        width: 80%;
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 620px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .btn {
+        width: 70%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        font-size: 13px;
+    }
+
+    .install-tips { justify-content: start; }
+
+    .tip {
+        padding-left: 40px;
+        margin-right: 50px;
+    }
+
+    .steps-text { width: 100%; }
+
+    .mobile-logo {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .burger-wrapper { left: 40px; }
+
+    .mobile-logo { width: 30%; }
+}
+
+@media all and (max-width: 500px) {
+        .main-install h2 {
+        font-size: 30px;
+    }
+
+    .main-install .wrapper p {
+        width: 100%;
+        margin: 20px 0 40px 0;
+    }
+
+    .wrapper {
+        padding-top: 50px;
+    }
+
+    .steps-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .mobile-list li {
+        padding-left: 40px;
+    }
+
+    .auth-mobile ul {
+        padding: 0 40px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .main-install h2 { font-size: 25px; }
+
+    .btn { width: 100%; }
+
+    .main-install .wrapper p { width: 85%; }
+
+    .tip-i:before { font-size: 95px; }
+
+    .install-tips>:last-of-type .tip-i:before { left: -22%; }
+
+    .install-tips>:first-of-type .tip-i:before { left: -22%; }
+
+    .install-tips>:last-of-type .tip-i:before, .install-tips>:first-of-type .tip-i:before {
+        top: -60%;
+    }
+
+    .tip {
+        width: 300px;
+        padding-left: 25px;
+        margin-right: 0;
+    }
+
+    .tip a {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .wrapper h2:not(.main-h2) {
+        font-size: 34px;
+    }
+
+    .note { font-size: 14px; }
+
+    .install-list a { font-size: 17px; }
+
+    .footer-logo, footer>:first-child { margin-bottom: 30px; }
+
+    footer {
+        padding: 0 40px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    footer>:last-child, .phone-numbers {
+        display: none;
+    }
+
+    .footer-logo {
+        margin-bottom: unset;
+    }
+
+    footer { min-height: unset; }
+}
+
+@media all and (max-width: 320px) {
+    .burger-wrapper { left: 30px; }
+
+    .burger-btn, .burger-btn span, .burger-btn span:before, .burger-btn span:after {
+        width: 35px;
+    }
+}
