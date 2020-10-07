@@ -51,6 +51,7 @@ a {
     -moz-box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .5);
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .5);
     cursor: pointer;
+    z-index: 999;
     transition: .3s all ease-in-out;
 }
 
@@ -477,7 +478,7 @@ footer>:first-child {
 /* ==== Mobile menu ==== */
 .mobile-menu {
     width: 100%;
-    height: 100%;
+    height: 100px;
     display: none;
     z-index: 999;
     position: absolute;
@@ -510,9 +511,9 @@ footer>:first-child {
 
 .mobile-wrapper {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    position: fixed;
     margin-top: 100px;
-    position: absolute;
     background-color: #fafafa;
 }
 
